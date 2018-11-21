@@ -11,6 +11,7 @@
     color: white;
     padding-top: 25px;
     padding-bottom: 5px;
+    z-index: 1;
 }
  #footer-line{
      position: fixed;
@@ -63,7 +64,7 @@
 html, body { 
     height: 100%;
     margin: 0;
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
 }
 
 h2{
@@ -125,15 +126,15 @@ h3{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #label1{
-    position: fixed; 
-    top: 415px;
+    position: relative;
     width: 200px;
+    top: -62px;
 }
 
 #label2{
-    position: fixed;
+    position: relative;
     width: 400px;
-    top: 415px;
-    left: 507px;
+    top: -113px; 
+    left: 229px;
 }
 
