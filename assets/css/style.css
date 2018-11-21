@@ -12,6 +12,10 @@
     padding-top: 25px;
     padding-bottom: 5px;
     z-index: 1;
+
+    border-top: #4aaaa5;
+    border-style: solid;
+    border-width: 6px 0 0 0 ;
 }
  #footer-line{
      position: fixed;
@@ -21,24 +25,31 @@
     width: 960px;
     margin: 0 auto 0 auto;
     padding: 20px;
-    background-color:white;
+    background-color:#ffffff;
     margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 }
 
 .header{
-    padding: 1.33%; 
+    padding: 1.24%; 
     background-color: white;
 }
 
 #your_name{
     float:left;
-    margin-right : 39.6%; /* Pushes tabs to right */
-    margin-left: 16.5%; /* Lining name with left edge of content box*/
+    margin-right : 34.7%; /*Pushes tabs to right*/
+    margin-left: 20.6%; /*Lining name with left edge of content box*/
     text-align: center;
     padding:10px;
     background: #4aaaa5;
     color: white;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
 } 
 
 #tabs{
@@ -50,21 +61,22 @@
 
 #bio-image{
     float:left;
-    margin-right:20px;
-    margin-bottom: 5px;
+    margin-right:30px;
+    margin-bottom: 10px;
 }
 
-/* .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
 
 /* Makes footer fill length*/
 html, body { 
     height: 100%;
     margin: 0;
-    /* background-color: #dddddd; */
+
+}
+.header {
+    border-bottom:#cccccc;
+    border-style: solid;
+    border-width: 0 0 1px 0 ;
+   
 }
 
 h2{
@@ -108,10 +120,6 @@ form{
     height: 100px;
 }
 
-svg{
-    margin-bottom: 20px;
-}
-
 #poster1{
     margin-right: 25px;
 }
@@ -138,3 +146,11 @@ h3{
     left: 229px;
 }
 
+textarea{
+    resize: vertical;
+    border-color: rgb(204, 204, 204);
+}
+
+svg{
+    margin-bottom:20px;
+}
