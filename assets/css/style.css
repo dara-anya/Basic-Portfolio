@@ -33,14 +33,16 @@
 }
 
 .header{
-    padding: 1.24%; 
+    padding: 20px; 
     background-color: white;
 }
 
 #your_name{
     float:left;
-    margin-right : 34.7%; /*Pushes tabs to right*/
-    margin-left: 20.6%; /*Lining name with left edge of content box*/
+    
+    margin-right : 34.5%; /*Pushes tabs to right*/
+    margin-left: 20.7%; /*Lining name with left edge of content box */
+    
     text-align: center;
     padding:10px;
     background: #4aaaa5;
@@ -65,8 +67,6 @@
     margin-bottom: 10px;
 }
 
-
-/* Makes footer fill length*/
 html, body { 
     height: 100%;
     margin: 0;
